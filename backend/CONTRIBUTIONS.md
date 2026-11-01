@@ -6,7 +6,7 @@ The Evacuation Center Management application was a collaborative academic projec
 
 ## Evidence in the recovered Git history
 
-The supplied `Evac.zip` contains a Git repository whose `main` history records six commits under the author identity associated with Yuan Haley Enriquez. The recorded dates span August 1–13, 2024. The commits include:
+The supplied `Evac.zip` contains a Git repository whose `main` history records six commits under the author identity associated with Yuan Haley Enriquez. The recorded dates span August 1–13, 2024. The full short-SHA inventory, commit messages, stash distinction, and publication cautions are documented in [RECOVERED_GIT_HISTORY.md](docs/RECOVERED_GIT_HISTORY.md). The commits include:
 
 - An initial backend and application baseline containing `server.js`, `config.js`, Sequelize model/configuration files, and the web UI assets.
 - Addition of Passport/Google OAuth integration code.
