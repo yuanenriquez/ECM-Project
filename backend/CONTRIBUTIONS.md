@@ -16,6 +16,12 @@ The supplied `Evac.zip` contains a Git repository whose `main` history records s
 
 The Git metadata is useful evidence of authored work, but author metadata is not cryptographic proof of who physically typed every line. The academic project should continue to be described as collaborative.
 
+## Project completion and deployment context
+
+The contributor recalls that the application was used as a local academic prototype during OJT and was not deployed as a public production website. The contributor also recalls that the wider application remained incomplete at submission, although it met the academic project requirement. This is contributor recollection, not independently verified deployment telemetry.
+
+This portfolio should therefore describe the work as backend development on an academic prototype. It should not claim that the full Evacuation Center Management System was completed, deployed, or used by external customers.
+
 ## Backend work supported by the recovered source
 
 The August 1 baseline contains code for:
