@@ -33,3 +33,10 @@ The stash contains working-tree/index state affecting `auth.js`, `package-lock.j
 ## Publication caution
 
 The August 5 commit contains a real OAuth secret. Do not push the recovered history unchanged to a public repository. A sanitized reconstruction can retain the original author names, dates, and commit messages, but any commit whose content is changed will receive a new SHA. The current portfolio branch intentionally does not import the old `.git` directory or its historical credentials.
+
+
+## Sanitized public portfolio copy
+
+A sanitized public copy of this historical backend Git history is being published separately at [`yuanenriquez/Evac-OJT-Backend`](https://github.com/yuanenriquez/Evac-OJT-Backend). The public copy preserves the six original commit dates, messages, author name, and order, but replaces the university email with the contributor's GitHub-provided `noreply` address and redacts the historical OAuth credentials. All six public commit hashes therefore differ from the private originals.
+
+The public repository also adds a later README/commit-map documentation commit. The original private `yuanenriquez/Evac` repository is kept unchanged as the historical source.
