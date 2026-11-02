@@ -19,7 +19,7 @@ See:
 
 ## Historical backend development record
 
-The original private [`Evac` repository](https://github.com/yuanenriquez/Evac) preserves the original source and six-commit history. The public [`Evac-OJT-Backend`](https://github.com/yuanenriquez/Evac-OJT-Backend) repository presents a sanitized copy of that historical project and its six-commit development record. The university email and historical OAuth credentials are excluded from the public copy.
+My original private [`Evac` repository](https://github.com/yuanenriquez/Evac) preserves the source and six-commit history. The public [`Evac-OJT-Backend`](https://github.com/yuanenriquez/Evac-OJT-Backend) repository presents a sanitized copy of that historical project and its six-commit development record. The university email and historical OAuth credentials are excluded from the public copy.
 
 The two repositories have different purposes: `Evac-OJT-Backend` shows the recovered 2024 project history, while this repository's `backend/` directory presents a later AI-assisted portfolio reconstruction with documented security improvements.
 
