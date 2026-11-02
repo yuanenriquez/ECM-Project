@@ -17,7 +17,7 @@ The six commits below are the commits on my recovered `main` branch. I list Git 
 | `4b63cad` | 2024-08-05 | `add client ID and client secret` | Replaces the OAuth placeholders with a literal Google OAuth client ID and client secret in `auth.js`. **The credential is intentionally omitted from this document. Treat it as exposed and revoke/rotate it if still active.** |
 | `b3b2288` | 2024-08-13 | `first commit` | Adds a small README file. |
 
-All six commits record the author and committer name `Yuan Haley Enriquez` and the same Batangas State University email address in the recovered Git metadata. This is useful historical attribution evidence, but Git author metadata by itself is not cryptographic proof of who physically wrote each line.
+The recovered history shows my name, `Yuan Haley Enriquez`, as the author and committer on all six original commits. In the public sanitized copy, I kept my author name and replaced the original email metadata with my GitHub-provided `noreply` address. The collaborative project context and boundaries of my contribution are explained in [`CONTRIBUTIONS.md`](../CONTRIBUTIONS.md).
 
 ## Recovered stash state
 
