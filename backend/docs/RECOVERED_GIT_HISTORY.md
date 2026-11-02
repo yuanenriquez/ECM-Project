@@ -2,9 +2,7 @@
 
 ## Source and scope
 
-This inventory was prepared from the `.git` directory recovered inside the contributor-supplied `Evac.zip`. The local repository's `main` and `origin/main` refs both point to commit `b3b2288`.
-
-The recovered repository configuration records the historical remote as `https://github.com/YuanEnriquezBSU/Evac.git`. That remote could not be independently retrieved during this review, so this document treats the supplied local Git database as the evidence source.
+This inventory was prepared from the original `Evac` Git repository and the `.git` directory recovered in my `Evac.zip` archive. The original private repository is now accessible at [`yuanenriquez/Evac`](https://github.com/yuanenriquez/Evac), and its `main` history confirms the six commits listed below.
 
 The six commits below are the commits on the recovered `main` branch. Git stash objects are listed separately and are not counted as ordinary branch commits.
 
@@ -37,6 +35,6 @@ The August 5 commit contains a real OAuth secret. Do not push the recovered hist
 
 ## Sanitized public portfolio copy
 
-A sanitized public copy of this historical backend Git history is being published separately at [`yuanenriquez/Evac-OJT-Backend`](https://github.com/yuanenriquez/Evac-OJT-Backend). The public copy preserves the six original commit dates, messages, author name, and order, but replaces the university email with the contributor's GitHub-provided `noreply` address and redacts the historical OAuth credentials. All six public commit hashes therefore differ from the private originals.
+A sanitized public copy of this historical backend Git history is published at [`yuanenriquez/Evac-OJT-Backend`](https://github.com/yuanenriquez/Evac-OJT-Backend). The public copy preserves the six original commit dates, messages, author name, and order, but replaces the university email with the contributor's GitHub-provided `noreply` address and redacts the historical OAuth credentials. All six public commit hashes therefore differ from the private originals.
 
 The public repository also adds a later README/commit-map documentation commit. The original private `yuanenriquez/Evac` repository is kept unchanged as the historical source.
