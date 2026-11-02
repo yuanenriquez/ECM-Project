@@ -4,7 +4,7 @@
 
 I recovered this inventory from my original `Evac` Git repository and the `.git` directory in my `Evac.zip` archive. My original private repository is available at [`yuanenriquez/Evac`](https://github.com/yuanenriquez/Evac), and its `main` history confirms the six commits listed below.
 
-The six commits below are the commits on the recovered `main` branch. Git stash objects are listed separately and are not counted as ordinary branch commits.
+The six commits below are the commits on my recovered `main` branch. I list Git stash objects separately because they are work-in-progress records, not additional ordinary commits.
 
 ## Recovered branch commits
 
@@ -30,7 +30,7 @@ The stash contains working-tree/index state affecting `auth.js`, `package-lock.j
 
 ## Publication caution
 
-The August 5 commit contains a real OAuth secret. Do not push the recovered history unchanged to a public repository. A sanitized reconstruction can retain the original author names, dates, and commit messages, but any commit whose content is changed will receive a new SHA. The current portfolio branch intentionally does not import the old `.git` directory or its historical credentials.
+The August 5 commit contained a real OAuth secret. I did not push the original history unchanged to the public repository. The sanitized copy retains my author name, original dates, and commit messages, but its commit IDs differ because I removed the secret and replaced the email metadata. I also kept the original private repository unchanged.
 
 
 ## Sanitized public portfolio copy
