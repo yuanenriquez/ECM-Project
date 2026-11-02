@@ -1,8 +1,8 @@
 # Evacuation Center Management — Backend Reconstruction
 
-This repository is a **portfolio-prepared reconstruction** of the backend work recovered from a 2024 academic Evacuation Center Management project. It is based on the most coherent email/password API version found in the supplied `Evac.zip` and `Sequelize.zip` archives.
+This repository contains an **AI-assisted portfolio reconstruction** of the backend work recovered from my 2024 academic Evacuation Center Management project. I used the recovered `Evac.zip` and `Sequelize.zip` versions as source material, then prepared a cleaner email/password API adaptation with AI assistance.
 
-It is not the untouched original source code, and it is not represented as a production-ready system. Security and maintainability changes made while preparing this portfolio version are documented below.
+This is later portfolio-preparation work, not the untouched 2024 source and not code that should be described as entirely written during my OJT. It is also not represented as a production-ready system. The historical implementation and the later changes are documented separately.
 
 ## Project context
 
@@ -102,10 +102,10 @@ These tests do not require a live MySQL database. They are not end-to-end tests 
 - Login returns a successful response but does not create a persistent login session, JWT, or protected-route authorization. Do not use it as a complete authentication system for a deployed product.
 - Google OAuth was deliberately excluded. The recovered OAuth experiment was inconsistent with the recovered User model and included a hardcoded client secret in historical files. That credential must be revoked/rotated if it is still active.
 - Existing accounts containing plaintext passwords from the old prototype will not authenticate against this hash-based reconstruction. Use a fresh local database for this portfolio version.
-- No live MySQL connection test was possible during archive reconstruction. The code and validation unit tests should be run locally before publishing.
+- A live MySQL connection test and end-to-end HTTP test have not yet been completed. The included validation unit tests are not a substitute; run the setup and Postman steps locally before describing the API as fully tested.
 
 ## Attribution
 
-This is a reconstructed backend portfolio artifact from a collaborative academic project. The recovered Git history contains commits authored under Yuan Haley Enriquez's Git author identity. See [CONTRIBUTIONS.md](CONTRIBUTIONS.md) and [docs/RECONSTRUCTION_NOTES.md](docs/RECONSTRUCTION_NOTES.md) for the evidence and boundaries of attribution.
+This is a later portfolio artifact based on a collaborative academic project. My original 2024 backend development history is preserved separately in [Evac-OJT-Backend](https://github.com/yuanenriquez/Evac-OJT-Backend). See [CONTRIBUTIONS.md](CONTRIBUTIONS.md) and [docs/RECONSTRUCTION_NOTES.md](docs/RECONSTRUCTION_NOTES.md) for the distinction between my OJT work and this AI-assisted reconstruction.
 
-The new repository is intentionally separate from the original archives and does not include their `.git` history, historical credentials, or unrelated experimental snapshots.
+This reconstruction is intentionally separate from the original archives and does not include their `.git` history, historical credentials, or unrelated experimental snapshots.
