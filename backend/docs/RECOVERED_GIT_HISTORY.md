@@ -2,7 +2,7 @@
 
 ## Source and scope
 
-This inventory was prepared from the original `Evac` Git repository and the `.git` directory recovered in my `Evac.zip` archive. The original private repository is now accessible at [`yuanenriquez/Evac`](https://github.com/yuanenriquez/Evac), and its `main` history confirms the six commits listed below.
+I recovered this inventory from my original `Evac` Git repository and the `.git` directory in my `Evac.zip` archive. My original private repository is available at [`yuanenriquez/Evac`](https://github.com/yuanenriquez/Evac), and its `main` history confirms the six commits listed below.
 
 The six commits below are the commits on the recovered `main` branch. Git stash objects are listed separately and are not counted as ordinary branch commits.
 
@@ -21,12 +21,12 @@ All six commits record the author and committer name `Yuan Haley Enriquez` and t
 
 ## Recovered stash state
 
-The archive also contains `refs/stash`:
+My recovered archive also contains `refs/stash`:
 
 - Stash commit: `ccefeb6` — `WIP on Integrating-Google-log-in: 1aac832 FIrst commit, working database`
 - Stash index commit: `e950bc0` — `index on Integrating-Google-log-in: 1aac832 FIrst commit, working database`
 
-The stash contains working-tree/index state affecting `auth.js`, `package-lock.json`, `package.json`, and `server.js`. These are Git stash internals, not two additional commits on the recovered `main` branch and should not be counted as completed commits.
+The stash contains working-tree/index state affecting `auth.js`, `package-lock.json`, `package.json`, and `server.js`. These are Git stash internals, not two additional commits on my recovered `main` branch, so I do not count them as completed commits.
 
 ## Publication caution
 
@@ -35,6 +35,6 @@ The August 5 commit contains a real OAuth secret. Do not push the recovered hist
 
 ## Sanitized public portfolio copy
 
-A sanitized public copy of this historical backend Git history is published at [`yuanenriquez/Evac-OJT-Backend`](https://github.com/yuanenriquez/Evac-OJT-Backend). The public copy preserves the six original commit dates, messages, author name, and order, but replaces the university email with the contributor's GitHub-provided `noreply` address and redacts the historical OAuth credentials. All six public commit hashes therefore differ from the private originals.
+I published a sanitized copy of this backend history at [`yuanenriquez/Evac-OJT-Backend`](https://github.com/yuanenriquez/Evac-OJT-Backend). It preserves my six original commit dates, messages, author name, and order, while replacing my university email with my GitHub-provided `noreply` address and redacting the historical OAuth credentials. All six public commit hashes therefore differ from my private originals.
 
-The public repository also adds a later README/commit-map documentation commit. The original private `yuanenriquez/Evac` repository is kept unchanged as the historical source.
+The public repository also adds a later README/commit-map documentation commit. I kept my original private `yuanenriquez/Evac` repository unchanged as the historical source.
