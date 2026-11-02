@@ -16,9 +16,9 @@ The `backend/` directory contains a portfolio-prepared reconstruction based on t
 
 ## Historical backend development record
 
-The original private [`Evac` repository](https://github.com/yuanenriquez/Evac) contains six commits authored under Yuan Haley Enriquez's Git identity during the 2024 OJT period. A separate public repository, [`Evac-OJT-Backend`](https://github.com/yuanenriquez/Evac-OJT-Backend), is prepared to present a sanitized copy of that historical backend and its six-commit history. The university email and historical OAuth credentials are excluded from the public copy.
+The original private [`Evac` repository](https://github.com/yuanenriquez/Evac) preserves the original source and six-commit history. The public [`Evac-OJT-Backend`](https://github.com/yuanenriquez/Evac-OJT-Backend) repository now presents a sanitized copy of that historical project and its six-commit development record. The university email and historical OAuth credentials are excluded from the public copy.
 
-The historical repository and this reconstructed backend have different purposes: the former preserves the original development record; this repository's `backend/` directory presents a later, security-conscious portfolio adaptation.
+The two repositories have different purposes: `Evac-OJT-Backend` shows the recovered 2024 project history, while this repository's `backend/` directory presents a later portfolio reconstruction with documented security improvements.
 
 ## Attribution
 
