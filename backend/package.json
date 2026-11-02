@@ -1,0 +1,22 @@
+{
+  "name": "evacuation-center-management-backend-reconstruction",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Security-hardened portfolio reconstruction of the backend API from a 2024 academic Evacuation Center Management project.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0",
+    "sequelize": "^6.37.3"
+  }
+}
