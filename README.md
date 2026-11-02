@@ -11,7 +11,14 @@ The `backend/` directory contains a portfolio-prepared reconstruction based on t
 - [`backend/README.md`](backend/README.md) for setup and API instructions.
 - [`backend/CONTRIBUTIONS.md`](backend/CONTRIBUTIONS.md) for the attribution boundaries and evidence.
 - [`backend/docs/RECONSTRUCTION_NOTES.md`](backend/docs/RECONSTRUCTION_NOTES.md) for the version comparison.
+- [`backend/docs/RECOVERED_GIT_HISTORY.md`](backend/docs/RECOVERED_GIT_HISTORY.md) for the original 2024 commit inventory.
 - [`backend/docs/SECURITY_REVIEW.md`](backend/docs/SECURITY_REVIEW.md) for security changes and remaining limitations.
+
+## Historical backend development record
+
+The original private [`Evac` repository](https://github.com/yuanenriquez/Evac) contains six commits authored under Yuan Haley Enriquez's Git identity during the 2024 OJT period. A separate public repository, [`Evac-OJT-Backend`](https://github.com/yuanenriquez/Evac-OJT-Backend), is prepared to present a sanitized copy of that historical backend and its six-commit history. The university email and historical OAuth credentials are excluded from the public copy.
+
+The historical repository and this reconstructed backend have different purposes: the former preserves the original development record; this repository's `backend/` directory presents a later, security-conscious portfolio adaptation.
 
 ## Attribution
 
