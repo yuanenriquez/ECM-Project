@@ -45,7 +45,7 @@ These are experiences I remember using during OJT. The recovered archives did no
 
 ## Changes made during portfolio preparation
 
-The backend in this repository is a later reconstruction, not a verbatim copy of the 2024 implementation. The following changes were made during portfolio preparation:
+The backend in this repository is a later reconstruction, not a verbatim copy of the 2024 implementation. I prepared it with AI assistance using the recovered source and version comparisons as input. The following changes belong to this later portfolio-preparation work, not to my original OJT:
 
 - Moved database connection details to environment variables.
 - Added password hashing with `bcryptjs`.
